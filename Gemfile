@@ -66,3 +66,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+
+gem 'devise'
+# 運用・テスト・本番のすべての環境で使用するので、gem deviseは一番下に記述します。
+# bundle install後は、サーバーの再起動が必要なのでrails sを忘れずに実行しましょう。
+# また、deviseの設定ファイルをrailsアプリケーションにインストールするため、
+# rails g devise:installコマンドの実行が必要になります。
+# このコマンドにより、deviseの設定関連に使用するファイルを自動で生成します。
