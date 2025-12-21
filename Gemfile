@@ -74,3 +74,4 @@ gem 'devise'
 # また、deviseの設定ファイルをrailsアプリケーションにインストールするため、
 # rails g devise:installコマンドの実行が必要になります。
 # このコマンドにより、deviseの設定関連に使用するファイルを自動で生成します。
+gem 'pry-rails'
