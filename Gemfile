@@ -75,3 +75,5 @@ gem 'devise'
 # rails g devise:installコマンドの実行が必要になります。
 # このコマンドにより、deviseの設定関連に使用するファイルを自動で生成します。
 gem 'pry-rails'
+
+gem "rails-i18n"

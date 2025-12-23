@@ -28,7 +28,7 @@
           </option>
 
           <% User.where.not(id: current_user.id).each do |user| %>
-            <option value="<%= user.id %>">
+            <option value=<%= user.id %>>
               <%= user.name %>
             </option>
           <% end %>
