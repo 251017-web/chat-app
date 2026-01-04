@@ -13,6 +13,17 @@ module ChatApp
     config.i18n.available_locales = [:ja, :en]
     config.i18n.default_locale = :ja
     config.time_zone = 'Tokyo'
+    config.active_storage.variant_processor = :mini_magick
+
+
+  # module ChatApp
+  #   class Application < Rails::Application
+  #   # Initialize configuration defaults for originally generated Rails version.
+  #   config.load_defaults 7.0
+  #   config.i18n.default_locale = :ja
+  #   config.time_zone = 'Tokyo'
+  #   config.active_storage.variant_processor = :mini_magick
+  # 教材使用
 
     # Configuration for the application, engines, and railties goes here.
     #
